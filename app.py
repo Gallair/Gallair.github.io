@@ -15,7 +15,7 @@ target_img = os.path.join(os.getcwd(), 'static/images')
 
 @app.route('/')
 def index_view():
-    return render_template('index2.html')
+    return render_template('index.html')
 
 
 # Allow files with extension png, jpg and jpeg
